@@ -1,0 +1,87 @@
+html {box-sizing: border-box;}
+*,*::before,*::after {box-sizing: inherit;}
+
+#container {
+    margin: auto;
+    width: 700px;
+    height: 550px;
+    background: url(http://www.insightbmx.com/wp-content/uploads/2013/04/black-gradient-background.png);
+    background-size: cover;
+    margin-top: 100px;
+    font-family: 'Acme', sans-serif;
+    margin-bottom: 100px;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+#lives {
+    font-size: 20px;
+    color: bisque;
+    text-align: center;
+    margin-top: 20px;
+}
+#answer {
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+    margin-top: 20px;
+}
+#buttons {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    position: relative;
+    top: 35px;
+    right: -35px;
+}
+button {
+    height: 50px;
+    width: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 25px;
+    border: 1px solid grey;
+    border-radius: 45%;
+}
+.loserimg {
+    position: relative;
+    top: -30px;
+    right: -113px;
+}
+.winnerimg {
+    position: relative;
+    top: 0px;
+    right: -104px;
+}
+#reloadlose {
+    width:200px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    right: 230px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+
+}
+
+#reloadwin {
+    width:200px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    left: 254px;
+    font-weight: bold;
+}
